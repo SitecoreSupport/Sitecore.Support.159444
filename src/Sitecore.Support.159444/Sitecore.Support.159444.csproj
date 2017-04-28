@@ -64,11 +64,11 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContentTestPerformanceFactory.cs" />
-    <Compile Include="KPIsCalculation.cs" />
-    <Compile Include="PersonalizationPerformanceInItem.cs" />
+    <Compile Include="ContentTesting\Reports\ContentTestPerformanceFactory.cs" />
+    <Compile Include="ContentTesting\Analytics\Calculation\KPIsCalculation.cs" />
+    <Compile Include="ContentTesting\Reports\PersonalizationPerformanceInItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RuleSetExposureQuery.cs" />
+    <Compile Include="ContentTesting\Analytics\Reporting\RuleSetExposureQuery.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.159444.config" />

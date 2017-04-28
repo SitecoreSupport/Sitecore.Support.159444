@@ -36,7 +36,7 @@ namespace Sitecore.Support.ContentTesting.Reports
         }
 
 
-        protected Sitecore.Support.ContentTesting.Analytics.Reporting.RulesetExposureQuery GetRulesetExposure(Guid rulesetId)
+        new protected Sitecore.Support.ContentTesting.Analytics.Reporting.RulesetExposureQuery GetRulesetExposure(Guid rulesetId)
         {
             DateTime utcNow = DateTime.UtcNow;
             DateTime startDate = this.GetStartDate(utcNow);
