@@ -19,7 +19,7 @@ GROUP BY [RuleId]
 ```
 
 ## Solution 2
-Use the code based solution located in the branches of this project. You can download already build zip with the DLL and the config file for it.
+Use the code based solution located in the branches of this project. You can download already built zip with the DLL and the config file for it from `releases` section.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.159444/blob/master/LICENSE).  
